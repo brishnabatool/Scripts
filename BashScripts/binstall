@@ -1,0 +1,3 @@
+# installs ubunutu package specified as command line argument
+
+sudo apt-get install $1

@@ -1,0 +1,3 @@
+# turns off screen
+
+xset dpms force off

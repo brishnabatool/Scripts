@@ -1,0 +1,26 @@
+#!/bin/bash
+# loads up Brishna's work environment
+
+echo "opening chrome"
+
+echo "opening gmail brishna.batool"
+nohup google-chrome https://mail.google.com/mail/u/2/#inbox </dev/null >google-chrome.log 2>&1 &
+echo "opening NU mail"
+nohup google-chrome https://mail.google.com/mail/u/1/#inbox </dev/null >google-chrome.log 2>&1 &
+echo "opening ITU mail"
+nohup google-chrome https://mail.google.com/mail/u/0/#inbox </dev/null >google-chrome.log 2>&1 &
+echo "opening drive folder (research)"
+# nohup google-hrocme https://drive.google.com/drive/u/2/folders/0B0IWsClhLwcYMmItMVg0YlVjXzg </dev/null >google-chrome.log 2>&1 &
+echo "opening connect and forward"
+#nohup google-chrome https://docs.google.com/document/d/1PytUUDZrRO0-OZeQcz4hOhAB9FjxtGTLgrm_r73gaEM/edit </dev/null >google-chrome.log 2>&1 &
+echo "opening StackOverflow"
+nohup google-chrome https:stackoverflow.com </dev/null >google-chrome.log 2>&1 &
+
+
+echo "opening work folder"
+# nautilus /home/brishna/LLVM
+nautilus ~/ITU/
+
+# echo "opening E..mybuild"
+# nautilus /mnt/E/LLVM/mybuild
+
