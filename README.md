@@ -1,2 +1,2 @@
 # Scripts
-Custom scripts, mostly born out of laziness
+Custom scripts, born primarily out of laziness
